@@ -1,0 +1,38 @@
+.Amazon{
+    color: rgb(0, 113, 133);
+    font-size: 19px;
+}
+
+.Nike{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.stock{
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.Free{
+    font-size: 19px;
+}
+
+.Add{
+    background-color: rgb(255, 216, 20);
+    border: none;
+    width: 150px;
+    font-size: 16px;
+    height: 35px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.Buy{
+    border: none;
+    background-color: rgb(255, 164, 28);
+    width: 150px;
+    font-size: 16px;
+    height: 35px;
+    border-radius: 20px;
+}
