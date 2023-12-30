@@ -1,0 +1,76 @@
+.Request{
+    background-color: black;
+    color: white;
+    width: 120px;
+    border-style: solid;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.Add{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+    width: 180px;
+    border-radius: 20px;
+    height: 35px;
+    font-family: arial;
+    margin-right: 20px;
+}
+
+.Sign{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+
+}
+
+.Start{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.Download{
+    border-color: rgb(108, 117, 125);
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: white;
+    border-width: 1px;
+    color:  rgb(108, 117, 125);
+}
+
+.Apply{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    width: 220px;
+    height: 35px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.Save{
+    background-color: white;
+    color:  rgb(10, 102, 194);
+    border-color:  rgb(10, 102, 194);
+    border-style: solid;
+    border-width: 1.5px;
+    width: 80px;
+    height: 35px;
+    border-radius: 20px;
+    font-weight: bold;
+}
