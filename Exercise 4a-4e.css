@@ -1,9 +1,11 @@
 .Request{
     background-color: black;
     color: white;
-    width: 120px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-style: solid;
-    height: 35px;
     margin-right: 20px;
     font-size: 12px;
     transition: opacity 0.15s;
@@ -18,9 +20,11 @@
     background-color: rgb(255, 216, 20);
     color: black;
     border: none;
-    width: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
     border-radius: 20px;
-    height: 35px;
     font-family: arial;
     margin-right: 20px;
     cursor: pointer;
@@ -35,22 +39,26 @@
     color: white;
     font-weight: bold;
     border: none;
-    width: 100px;
-    height: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .Sign:hover{
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15    );
 }
 
 .Start{
     background-color: rgb(121, 82, 179);
     color: white;
     border: none;
-    width: 120px;
-    height: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     font-weight: bold;
     border-radius: 5px;
     margin-right: 10px;
@@ -64,8 +72,10 @@
 
 .Download{
     border-color: rgb(108, 117, 125);
-    width: 120px;
-    height: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     font-weight: bold;
     border-radius: 5px;
     border-style: solid;
@@ -85,13 +95,16 @@
     background-color: rgb(10, 102, 194);
     color: white;
     border: none;
-    width: 220px;
-    height: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 20px;
     font-weight: bold;
     margin-right: 10px;
     cursor: pointer;
     transition: background-color 0.15s;
+    vertical-align: top;
 }
 
 .Apply:hover{
@@ -104,15 +117,51 @@
     border-color:  rgb(10, 102, 194);
     border-style: solid;
     border-width: 1.5px;
-    width: 80px;
-    height: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-radius: 20px;
     font-weight: bold;
     transition: background-color 0.2s;
     transition: border-width 0.2;
+    vertical-align: top;
 }
 
 .Save:hover{
     border-width: 2px;
     background-color: rgb(235, 235, 253)
+}
+
+.Sub{
+    width: 100px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.Join{
+    width: 60px;
+    height: 35px;
+    background-color: white;
+    border-color: rgb(29, 155, 240);
+    color: rgb(29, 155, 240);
+    border-style: solid;
+    border-width: 1px;
+    font-family: arial;  
+}
+
+.Tweet{
+    color: white;
+    background-color: rgb(29, 155, 240);
+    border: none;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 22px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
