@@ -1,0 +1,66 @@
+.Tahoma{
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 25px;
+}
+.title{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.sub-title{
+    margin-top: 4px;
+    font-family: Verdana;
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.description{
+    margin-top: 20px;
+    font-family: Verdana;
+    width: 300px;
+    line-height: 24px;
+}
+.start{
+    font-family: Verdana;
+    background-color: green;
+    border: none;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5px;
+}
+.Title{
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.Sub-Title{
+    margin-top: 7px;
+    font-style: italic;
+    font-family: Arial;
+    color: red;
+}
+.TITLE{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial;
+    text-align: center;
+    margin-bottom: 0;
+}
+.Description{
+    margin-top: 18px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 15px;
+}
+.link{
+    font-size: 15px;
+    text-align: center;
+    color: rgb(100, 100, 255);
+}

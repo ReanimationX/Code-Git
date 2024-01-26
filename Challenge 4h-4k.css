@@ -1,3 +1,6 @@
+*{
+    font-family: Arial;
+}
 .back{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -40,6 +43,7 @@
                 padding-right 0.5s,
                 padding-top 0.5s,
                 padding-bottom 0.5s;
+    cursor: pointer;
 } 
 .stretch:hover{
     padding-top: 16px;
@@ -57,9 +61,72 @@
     color: white;
     border: none;
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 .shadow:active{
     margin-left: 3px;
     margin-top: 17px;
     box-shadow: none;
+}
+.box{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.uno{
+    background-color: green;
+    color: white;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: padding 0.15s,
+                margin 0.15s;
+}
+.uno:hover{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.dos{
+    background-color: green;
+    color: white;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial;
+    transition: padding 0.15s,
+                margin 0.15s;
+}
+.dos:hover{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tres{
+    background-color: green;
+    color: white;
+    border: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: padding 0.15s,
+                margin 0.15s;
+}
+.tres:hover{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
